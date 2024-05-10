@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/images4"
+        />
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите пароль"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:layout_centerHorizontal="true"
+        android:text="запустить"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_button"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="что закажите ?"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:textStyle="italic|bold"
+        android:layout_alignStart="@id/editTextPassword"
+        android:layout_alignEnd="@id/editTextPassword"
+        android:layout_above="@id/editTextPassword"
+
+        />
+
+</RelativeLayout>
